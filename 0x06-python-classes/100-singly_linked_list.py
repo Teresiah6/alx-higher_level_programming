@@ -1,9 +1,9 @@
 #!/usr/bin/pyrthon3
-"""Define classes for a singly-linked list."""
+"""Define class for a singly-linked list."""
 
 
 class Node:
-    """Represent node in a singly-linked list."""
+    """Represent node in singly-linked list."""
 
     def __init__(self, data, next_node=None):
         """Initialize a new Node.
@@ -41,12 +41,12 @@ class SinglyLinkedList:
     """Represent singly-linked list."""
 
     def __init__(self):
-        """Initalize new SinglyLinkedList."""
+        """Initalize SinglyLinkedList."""
         self.__head = None
 
     def sorted_insert(self, value):
         """Insert new Node to the SinglyLinkedList.
-        The node inserted into the list at the correct
+        The node inserted into list in correct
         ordered numerical position.
         Args:
             value (Node): The new Node to insert.
@@ -67,7 +67,7 @@ class SinglyLinkedList:
             tmp.next_node = new
 
     def __str__(self):
-        """Define print() representation of a SinglyLinkedList."""
+        """Define printed representation of a SinglyLinkedList."""
         values = []
         tmp = self.__head
         while tmp is not None:
