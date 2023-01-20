@@ -3,7 +3,6 @@
 from models.base import Base
 
 
-
 class Rectangle(Base):
     """Represent a rectangle."""
 
@@ -78,7 +77,6 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
-
 
     def area(self):
         """Return the area of the Rectangle."""
