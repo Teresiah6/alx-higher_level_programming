@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
---delete db hbtn_0c_0
+--delete database hbtn_0c_0 in MYSQL server
 DROP DATABASE IF EXISTS hbtn_0c_0;
