@@ -2,5 +2,5 @@
 --list row with name value and score and name ordered
 SELECT score, name
 FROM second_table
-WHERE name != ""
+WHERE name IS NOT NULL
 ORDER BY score DESC;
