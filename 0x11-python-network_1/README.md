@@ -1,7 +1,6 @@
 0x11. Python - Network #1
 
-Tasks 
-Mandatory
+Mandatory tasks
 0. What's my status? #0
 Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
@@ -19,7 +18,7 @@ The value of this variable is different for each request
 You don’t need to check arguments passed to the script (number or type)
 You must use a with statement
 
-2. POST an email #0
+2. 2. POST an email #0
 Write a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)
 
 The email must be sent in the email variable
@@ -94,10 +93,12 @@ You must use the package requests and sys
 You are not allowed to import packages other than requests and sys
 You don’t need to check arguments passed to the script (number or type)
 
-
-Optional
-10. Time for an interview!
+Optional task
 The Holberton School staff evaluates candidates applying for a back-end position with multiple technical challenges, like this one:
+
+Please list 10 commits (from the most recent to oldest) of the repository “rails” by the user “rails”
+You must use the GitHub API, here is the documentation https://developer.github.com/v3/repos/commits/
+Print all commits by: `<sha>: <author name>` (one by line)
 Write a Python script that takes 2 arguments in order to solve this challenge.
 
 The first argument will be the repository name
@@ -106,5 +107,3 @@ You must use the packages requests and sys
 You are not allowed to import packages other than requests and sys
 You don’t need to check arguments passed to the script (number or type)
 Only 17% of applicants for a backend position at Holberton finished this task in less than 15 minutes.
-
-
