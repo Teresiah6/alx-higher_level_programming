@@ -1,5 +1,5 @@
---create user user_0d_1.
---show privileges and assign password user_0d_1_pwd
-CREATE user user_0d_1;
-SHOW GRANT user_0d_1;
-ALTER USER user_0d_1 IDENTIFIED WITH mysql_native_password BY user_0d_1_pwd;
+-- script creates the MySQL server user user_0d_1
+-- create  new user
+CREATE USER IF NOT EXISTS user_0d_1@localhost IDENTIFIED BY 'user_0d_1_pwd';
+-- this is to grant privileges
+GRANT ALL PRIVILEGES ON *.* TO user_0d_1@localhost;
