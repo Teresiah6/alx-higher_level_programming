@@ -1,2 +1,2 @@
---remove all records with a core <=15 in second_table
-DELETE FROM second_table where score <= 5;
+-- script that removes all records with a score <= 5 in second_table of db
+DELETE FROM second_table WHERE `score` <= 5;
