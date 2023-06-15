@@ -1,2 +1,3 @@
---update score of Bob to 10 in second_table
+-- script that updates Bob's score to 10 in table second_table
 UPDATE `second_table` SET `score` = 10 WHERE `name` = 'Bob';
+
